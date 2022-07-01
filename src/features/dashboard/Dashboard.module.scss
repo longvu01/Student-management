@@ -1,0 +1,28 @@
+.wrapper {
+  position: relative;
+  padding-top: 8px;
+}
+
+.loading {
+  position: absolute !important;
+  top: -8px;
+  left: 0;
+  right: 0;
+}
+
+// StatisticItem
+.item-wrapper {
+  display: flex;
+  flex-flow: 'row nowrap';
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px;
+  border: 1px solid #e8e8e8;
+}
+
+// Widget
+.widget-wrapper {
+  padding: 16px;
+  border: 1px solid #e8e8e8;
+}
